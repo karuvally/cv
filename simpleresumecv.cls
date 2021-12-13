@@ -189,12 +189,12 @@ BoldItalicFont=FreeSerifBoldItalic]
 
 \ifnum\TypesetInDraftMode=0
 \newcommand{\HeaderText}{}
-\newcommand{\FooterText}{\hfill\PageKOfN\hfill}
+%\newcommand{\FooterText}{\hfill\PageKOfN\hfill}
 \else
 \newcommand{\HeaderText}{}
-\newcommand{\FooterText}{\null\hphantom{\DraftStamp}\hfill%
-\PageKOfN\hfill%
-\DraftStamp\null}
+%\newcommand{\FooterText}{\null\hphantom{\DraftStamp}\hfill%
+%\PageKOfN\hfill%
+%\DraftStamp\null}
 \fi
 
 \def\ps@plain{%
